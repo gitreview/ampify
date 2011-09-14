@@ -14,6 +14,6 @@ func SortedKeys(dict map[string]string) (keys []string) {
 		keys[i] = key
 		i += 1
 	}
-	sort.StringSlice(keys).Sort()
+	sort.StringArray(keys).Sort()
 	return
 }
